@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="table-and-form">
+        <form autocomplete="off" action="#" id="workForm">
+          <input type="number" id="workInput" placeholder="iş saatınız" />
+          <button id="workButton">Add</button>
+        </form>
+        <table class="count">
+          <thead>
+            <tr>
+              <th>First day</th>
+              <th>Second day</th>
+              <th>Third day</th>
+              <th>Fourth day</th>
+              <th>Fifth day</th>
+              <th>Sixth day</th>
+              <th>Seventh day</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr></tr>
+          </tbody>
+        </table>
+      </div>
+      <table class="weekly-hour">
+        <thead>
+          <tr>
+            <th>Ümumi iş saatınz:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="weekly-hour"></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="alert-message">Hər hansı bir şey əlavə et!</div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
